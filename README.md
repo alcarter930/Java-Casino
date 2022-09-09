@@ -1,7 +1,7 @@
 # Java-Casino
 Java Casino Coding Projects!
 
-#Games Included
+# Games Included
 
-##Poker
-###5-Card Draw
+## Poker
+### 5-Card Draw
