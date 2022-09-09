@@ -1,3 +1,10 @@
+/**
+Simple Card class to be implemented in Java Casino
+as well as the Deck classes (probably more tbh).
+
+@author Aaron Carter
+@version September 9, 2022
+*/
 public class Card {
     //variabls
     protected String mySuit;
@@ -15,7 +22,9 @@ public class Card {
            case 4: mySuit = "Spades";
        }
     }
-
+    //two separate constructors to allow for the creation of a card through
+    //use of integers or strings for suits
+    // I probably need one for a string value, but I'll do that later if I have to
     public Card(String suit, int value){
         mySuit = suit;
         myValue = value;
