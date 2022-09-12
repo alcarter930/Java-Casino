@@ -30,12 +30,18 @@ public class Deck {
     public ArrayList<Card> getDeck(){
         return myDeck;
     }
+    
+    //shuffles the deck using the built in shuffle command
     public void shuffle(){
         Collections.shuffle(myDeck);
     }
     
-    //gives the ability to combine new decks.
-    //made with the thought of blackjack having like 4 decks in mind
+    /**gives the ability to combine new decks.
+        made with the thought of blackjack having like 4 decks in mind
+        
+        @param d the deck to combine with
+    
+    */
     public void combine(Deck d){
         for(Card c: d.getDeck()){
             myDeck.add(c);
